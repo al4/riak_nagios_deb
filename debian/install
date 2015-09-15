@@ -1,0 +1,3 @@
+check_node usr/bin
+bin/riak-check-compaction.sh usr/bin
+bin/riak-check-files.sh usr/bin

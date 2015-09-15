@@ -1,0 +1,11 @@
+Source: riak-nagios
+Section: utils
+Priority: extra
+Maintainer: Alex Forbes <alforbes@gumtree.com>
+Build-Depends: debhelper (>= 9), rebar, build-essential
+Standards-Version: 3.9.5
+
+Package: riak-nagios
+Architecture: all
+Depends: erlang, ${misc:Depends}
+Description: Debian package to install riak-nagios scripts
