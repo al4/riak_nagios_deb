@@ -2,7 +2,8 @@ Source: riak-nagios
 Section: utils
 Priority: extra
 Maintainer: Alex Forbes <alforbes@gumtree.com>
-Build-Depends: debhelper (>= 9), rebar, build-essential
+#Build-Depends: debhelper (>= 9), rebar, build-essential, git (>= 1.5), erlang-dev, erlang-eunit
+Build-Depends: debhelper (>= 9), build-essential, git (>= 1.5), erlang-dev, erlang-eunit
 Standards-Version: 3.9.5
 
 Package: riak-nagios
